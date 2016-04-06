@@ -15,6 +15,8 @@
 		D46422311CB4B50A000E1843 /* LaunchScreen.storyboard in Resources */ = {isa = PBXBuildFile; fileRef = D464222F1CB4B50A000E1843 /* LaunchScreen.storyboard */; };
 		D464223C1CB4B50A000E1843 /* CustomAlertViewTests.m in Sources */ = {isa = PBXBuildFile; fileRef = D464223B1CB4B50A000E1843 /* CustomAlertViewTests.m */; };
 		D46422471CB4B50A000E1843 /* CustomAlertViewUITests.m in Sources */ = {isa = PBXBuildFile; fileRef = D46422461CB4B50A000E1843 /* CustomAlertViewUITests.m */; };
+		D46422B51CB4E788000E1843 /* MWEGradeView.xib in Resources */ = {isa = PBXBuildFile; fileRef = D46422B41CB4E788000E1843 /* MWEGradeView.xib */; };
+		D46422B81CB4EA54000E1843 /* MWEGradeView.m in Sources */ = {isa = PBXBuildFile; fileRef = D46422B71CB4EA54000E1843 /* MWEGradeView.m */; };
 /* End PBXBuildFile section */
 
 /* Begin PBXContainerItemProxy section */
@@ -51,6 +53,9 @@
 		D46422421CB4B50A000E1843 /* CustomAlertViewUITests.xctest */ = {isa = PBXFileReference; explicitFileType = wrapper.cfbundle; includeInIndex = 0; path = CustomAlertViewUITests.xctest; sourceTree = BUILT_PRODUCTS_DIR; };
 		D46422461CB4B50A000E1843 /* CustomAlertViewUITests.m */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.objc; path = CustomAlertViewUITests.m; sourceTree = "<group>"; };
 		D46422481CB4B50A000E1843 /* Info.plist */ = {isa = PBXFileReference; lastKnownFileType = text.plist.xml; path = Info.plist; sourceTree = "<group>"; };
+		D46422B41CB4E788000E1843 /* MWEGradeView.xib */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = file.xib; path = MWEGradeView.xib; sourceTree = "<group>"; };
+		D46422B61CB4EA54000E1843 /* MWEGradeView.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; path = MWEGradeView.h; sourceTree = "<group>"; };
+		D46422B71CB4EA54000E1843 /* MWEGradeView.m */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.objc; path = MWEGradeView.m; sourceTree = "<group>"; };
 /* End PBXFileReference section */
 
 /* Begin PBXFrameworksBuildPhase section */
@@ -118,6 +123,9 @@
 			isa = PBXGroup;
 			children = (
 				D46422221CB4B50A000E1843 /* main.m */,
+				D46422B41CB4E788000E1843 /* MWEGradeView.xib */,
+				D46422B61CB4EA54000E1843 /* MWEGradeView.h */,
+				D46422B71CB4EA54000E1843 /* MWEGradeView.m */,
 			);
 			name = "Supporting Files";
 			sourceTree = "<group>";
@@ -243,6 +251,7 @@
 			isa = PBXResourcesBuildPhase;
 			buildActionMask = 2147483647;
 			files = (
+				D46422B51CB4E788000E1843 /* MWEGradeView.xib in Resources */,
 				D46422311CB4B50A000E1843 /* LaunchScreen.storyboard in Resources */,
 				D464222E1CB4B50A000E1843 /* Assets.xcassets in Resources */,
 				D464222C1CB4B50A000E1843 /* Main.storyboard in Resources */,
@@ -270,6 +279,7 @@
 			isa = PBXSourcesBuildPhase;
 			buildActionMask = 2147483647;
 			files = (
+				D46422B81CB4EA54000E1843 /* MWEGradeView.m in Sources */,
 				D46422291CB4B50A000E1843 /* ViewController.m in Sources */,
 				D46422261CB4B50A000E1843 /* AppDelegate.m in Sources */,
 				D46422231CB4B50A000E1843 /* main.m in Sources */,
